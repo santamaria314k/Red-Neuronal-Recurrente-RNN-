@@ -1,6 +1,14 @@
 # 🎬 Análisis de sentimiento de reseñas con una RNN (LSTM) + Streamlit
 
 Proyecto de Deep Learning con **datos secuenciales (texto)**: una **red recurrente LSTM bidireccional**, entrenada con TensorFlow/Keras, que clasifica reseñas de películas como **positivas** o **negativas**. Incluye una **aplicación Streamlit** que carga el modelo entrenado, permite escribir una reseña nueva y muestra el sentimiento predicho junto con su nivel de confianza.
+app capturas en local 
+<img width="1354" height="728" alt="mixta ev" src="https://github.com/user-attachments/assets/b6c5d553-cd7a-4ab8-8c2e-2919388cebfb" />
+<img width="1352" height="725" alt="negativa ev" src="https://github.com/user-attachments/assets/b008d617-a026-4a6c-98c9-f3e3797a57f2" />
+<img width="1346" height="726" alt="positiva ev" src="https://github.com/user-attachments/assets/02b0b93e-6a51-4567-9d0d-0f1f30280386" />
+
+
+
+
 
 ## 1. Dataset
 **IMDB Large Movie Review Dataset** (Maas et al., 2011), descargado automáticamente desde `https://ai.stanford.edu/~amaas/data/sentiment/aclImdb_v1.tar.gz` (no se incluye en el repositorio; `data/` está en `.gitignore`).
