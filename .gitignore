@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.DS_Store
+# Dataset (se descarga automáticamente; pesa ~80 MB comprimido)
+data/*
+!data/.gitkeep
+aclImdb*/

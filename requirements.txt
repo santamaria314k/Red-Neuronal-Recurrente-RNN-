@@ -1,0 +1,10 @@
+# Versiones con las que se entrena en Google Colab y con las que se prueba la app.
+# IMPORTANTE: el modelo se guarda con Keras 3.13.2; con versiones de Keras más antiguas puede fallar al cargarlo.
+# Keras 3.13 requiere Python 3.11 o superior.
+tensorflow==2.21.0
+keras==3.13.2
+numpy
+pandas
+matplotlib
+scikit-learn
+streamlit>=1.35
